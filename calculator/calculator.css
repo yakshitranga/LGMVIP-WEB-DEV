@@ -1,0 +1,42 @@
+
+body {
+    font-family: comic sans, sans-serif;
+    text-align: center;
+    background-color: #ff98fc;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #000000;
+
+}
+
+td {
+    padding: 10px;
+    border: 3px solid #00ff00;
+}
+
+button[type="button"] {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d5caca;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    background-color: #f07007;
+}
+
+#result {
+    width: 200px;
+    height: 30px;
+    font-size: 24px;
+    padding: 10px;
+    border: 1px solid #b12aac;
+    border-radius: 5px;
+    text-align: right;
+}
